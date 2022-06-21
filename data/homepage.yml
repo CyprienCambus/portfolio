@@ -1,0 +1,213 @@
+head:
+  title: "Cyprien Cambus - Data Science Portfolio"
+ 
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I’m Cyprien Cambus"
+  subtitle: "Data Scientist"
+  description: "It's been 3 years that I've started my Data Science journey. I really enjoy working on diverse topics, I like to add value to the data, to make it talk. Welcome to my Data Science portfolio !"
+  image:
+    x: "img/showcase/giphy.gif"
+    _2x: "img/showcase/giphy.gif"
+  imageMobile:
+    x: "img/showcase/giphy.gif"
+    _2x: "img/showcase/giphy.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Cyprien"
+    URL: "mailto:cyprien.cambus@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/cyprien-cambus/"
+
+    - icon: "github"
+      URL: "https://github.com/CyprienCambus"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I am a data enthusiast.</strong> I have always been fascinated by the amount of problems, sometimes very complex, that data science can solve. Bringing real added value to data is in my opinion the main interest of this job.  
+    </p>
+    <p class="lead">
+    Graduated of the prestigious <strong>Toulouse School of Economics,</strong> I have already put my knowledge and skills to good use in several large international companies. 
+    
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/cyprien-cambus/"
+  image:
+    x: "img/who-am-i/user-pic.png"
+    _2x: "img/who-am-i/user-pic.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 3 years of experience at solving complex business issues in some of the largest companies. I build Machine Learning and Statistical models to help them take the good data-driven decisions."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/cv/Cyprien_Cambus.pdf"
+
+  items:
+    - title: "Data Scientist"
+      company: "Crédit Agricole Sud-Méditerranée"
+      duration: "Sept 2020 - Today"
+
+    - title: "Data Scientist for strategic marketing"
+      company: "Airbus"
+      duration: "May 2020 - Aug 2020"
+
+    - title: "Credit Risk Modeler"
+      company: "BRD - Groupe Société Générale"
+      duration: "June 2019 - Aug 2019"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Toulouse School of Economics"
+      year: "2019-2021"
+      degree: "Master of Econometrics and Statistics"
+
+    - university: "Toulouse School of Economics"
+      year: "2015-2019"
+      degree: "Bachelor (double degree) in Economics and Mathemetics"
+  
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Twitter sentiments analysis"
+      description: "This application allows to perform a real time tweet sentiments analysis using the Twitter API. It shows what are the trends for a particular hashtag and allows user to locate or see network of retweet."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://cyprien-cambus.shinyapps.io/tweet_app/"
+      image:
+        x: "img/works/screen_tweet.gif"
+        _2x: "img/works/screen_tweet.gif"
+      is_even: true
+
+    - title: "Covid-19 Dashboard"
+      description: "This application is a great tool to study Covid-19 evolution among different countries in Europe as well as vaccination in France."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://cyprien-cambus.shinyapps.io/app_material/"
+      image:
+        x: "img/works/screen_covid.gif"
+        _2x: "img/works/screen_covid.gif"
+      is_even: false
+      
+    - title: "Optical Character Recognition using R"
+      description: "This article explains how you can perform text extraction from image using tesseract engine in R. I've build a simple application to present how it can be done."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read article"
+        URL: "https://medium.com/@cyprien.cambus/optical-character-recognition-using-tesseract-in-r-3f5d9676dade"
+      image:
+        x: "img/works/screen_ocr.gif"
+        _2x: "img/works/screen_ocr.gif"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Mohamed Beydia"
+      position: "AI & Data Science manager at Deloitte, Luxembourg"
+      content: "I had the pleasure to be Cyprien's manager in the Digital Marketing & Data Analytics department at Crédit Agricole Sud Méditerranée.
+During that time, I could see how talented he is. He is passionate about his work, dynamic, professional and above all intellectually curious, this last quality being a major asset in the field of data science.
+I highly recommend him and I am sure that a great career in data science is waiting for him!"
+      image:
+        x: "img/testimonials/mohamed.jpg"
+        _2x: "img/testimonials/mohamed.jpg"
+     
+
+# contact
+contact:
+  enable: true
+  title: "Contact Cyprien"
+    
+  image:
+    x: "img/who-am-i/user-pic2.jpg"
+    _2x: "img/who-am-i/user-pic2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:cyprien.cambus@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "+33678146748"
+  email:
+    title: "Email"
+    email: '<a href="mailto:cyprien.cambus@gmail.com">cyprien.cambus@gmail.com</a>'
+  address:
+    title: "City"
+    address: "Perpignan, France"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
