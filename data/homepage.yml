@@ -59,7 +59,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "/cv/Cyprien_Cambus.pdf"
+    URL: "/cv/Cyprien_CAMBUS_Resume.pdf"
 
   items:
     - title: "Data Scientist"
